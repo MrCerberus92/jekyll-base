@@ -1,34 +1,23 @@
----
-layout: default
----
 
-<div class="home">
-
-  <nav><ul class="sidenav"><li class="closed"><a href="/sites/cerberus4multimedia/settings/general">General</a><ul class=""><li class=""><a href="/sites/cerberus4multimedia/settings/general#site-details">Site details</a></li><li class=""><a href="/sites/cerberus4multimedia/settings/general#site-administrators">Site administrators</a></li><li class=""><a href="/sites/cerberus4multimedia/settings/general#danger-zone">Danger zone</a></li></ul></li><li class="closed"><a href="/sites/cerberus4multimedia/settings/deploys">Build &amp; deploy</a><ul class=""><li class=""><a href="/sites/cerberus4multimedia/settings/deploys#continuous-deployment">Continuous Deployment</a></li><li class=""><a href="/sites/cerberus4multimedia/settings/deploys#single-page-apps">Single page apps</a></li><li class=""><a href="/sites/cerberus4multimedia/settings/deploys#post-processing">Post processing</a></li><li class=""><a href="/sites/cerberus4multimedia/settings/deploys#deploy-notifications">Deploy notifications</a></li></ul></li><li class="active"><a href="/sites/cerberus4multimedia/settings/domain">Domain management</a><ul class=""><li class="current"><a href="/sites/cerberus4multimedia/settings/domain#domains">Domains</a></li><li class=""><a href="/sites/cerberus4multimedia/settings/domain#https">HTTPS</a></li><li class=""><a href="/sites/cerberus4multimedia/settings/domain#dns">DNS</a></li></ul></li><li class="closed"><a href="/sites/cerberus4multimedia/settings/forms">Forms</a><ul class=""><li class=""><a href="/sites/cerberus4multimedia/settings/forms#form-notifications">Form notifications</a></li></ul></li><li class="closed"><a href="/sites/cerberus4multimedia/settings/access">Access control</a><ul class=""><li class=""><a href="/sites/cerberus4multimedia/settings/access#visitor-access">Visitor access</a></li><li class=""><a href="/sites/cerberus4multimedia/settings/access#oauth">OAuth</a></li></ul></li><li class="closed"><a href="/sites/cerberus4multimedia/settings/identity">Identity</a><ul class=""><li class=""><a href="/sites/cerberus4multimedia/settings/identity#identity-configuration">Identity configuration</a></li><li class=""><a href="/sites/cerberus4multimedia/settings/identity#email-templates">Email templates</a></li><li class=""><a href="/sites/cerberus4multimedia/settings/identity#services">Services</a></li></ul></li></ul></nav>
-  
-  
-  <div class="main"><article class="container"><h1 class="visuallyhidden">Domain management</h1><section id="section-domains" class="section"><header class="section-header"><h2 class="section-title"><a id="domains" class="anchor" href="#domains">Domains</a></h2><p><!-- react-text: 6273 -->Set a custom domain and manage domain aliases<!-- /react-text --><!-- react-text: 6274 -->.<!-- /react-text --></p></header><div class="card card-settings"><div><div class="card-header"><h3 class="card-title"><a id="custom-domain" href="#custom-domain" class="anchor">Custom domain</a></h3></div><div><!-- react-empty: 6459 --><!-- react-empty: 6460 --><div class="form-header"><h4>No custom domain set</h4><p><!-- react-text: 6464 -->By default, your site is accessible at<!-- /react-text --><!-- react-text: 6465 --> <!-- /react-text --><a target="_blank" rel="noopener noreferrer" href="https://cerberus4multimedia.netlify.com" class="subdued-link">cerberus4multimedia.netlify.com</a><!-- react-text: 6467 -->.<!-- /react-text --></p><p><!-- react-text: 6469 -->You can change the Netlify subdomain by changing the site’s name in<!-- /react-text --><!-- react-text: 6470 --> <!-- /react-text --><a href="/sites/cerberus4multimedia/settings">General settings</a><!-- react-text: 6472 -->.<!-- /react-text --></p><p><!-- react-text: 6474 -->If you own a custom domain, you can add it to your site by clicking<!-- /react-text --><!-- react-text: 6475 --> <!-- /react-text --><em>Add a custom domain</em><!-- react-text: 6477 -->.<!-- /react-text --></p><p><a target="_blank" rel="noopener noreferrer" class="action-link" href="https://www.netlify.com/docs/custom-domains/">Learn more about custom domains in the documentation</a></p></div><div class="form-footer"><button type="button" class="btn btn-basic">Add a custom domain</button></div></div><!-- react-empty: 6323 --></div></div><div class="card card-settings"><div><div class="card-header"><h3 class="card-title disabled"><a id="domain-aliases" href="#domain-aliases" class="anchor">Domain aliases</a></h3></div><h4>No custom domain set</h4><p>Set a primary custom domain to enable domain alias functionality, allowing you to point more custom domains to this site.</p><div class="card-footer"><a href="#custom-domain" class="btn btn-basic">Custom domain panel ↑</a></div></div></div></section><section id="section-https" class="section"><header class="section-header"><h2 class="section-title"><a id="https" class="anchor" href="#https">HTTPS</a></h2><p><!-- react-text: 6341 -->Enable automatic TLS certificates with Let’s Encrypt, or use your own certificate<!-- /react-text --><!-- react-text: 6342 -->.<!-- /react-text --></p></header><div><div class="card card-settings"><div><div class="card-header"><h3 class="card-title disabled"><a id="ssl-tls-certificate" href="#ssl-tls-certificate" class="anchor">SSL/TLS certificate</a></h3></div><h4>A custom domain is required to provision a certificate</h4><p>You’ll need to set a custom domain before your can enable HTTPS.</p><div class="card-footer"><a href="#custom-domain" class="btn btn-basic">Custom domain panel ↑</a></div></div></div><!-- react-empty: 6358 --><!-- react-empty: 6359 --></div><div class="card card-settings"><div><div class="card-header"><h3 class="card-title disabled"><a id="force-https" href="#force-https" class="anchor">Force HTTPS</a></h3></div><h4>You must have a certificate installed to force HTTPS</h4><p>Ensure you first have a custom domain set, and then ensure you selected to provision a free Let’s Encrypt certificate or have provided your own.</p><div class="card-footer"><a href="#custom-domain" class="btn btn-basic"><!-- react-text: 6369 -->Custom domain panel<!-- /react-text --><!-- react-text: 6370 --> ↑<!-- /react-text --></a></div></div></div></section><section id="section-dns" class="section"><header class="section-header"><h2 class="section-title"><a id="dns" class="anchor" href="#dns">DNS</a></h2><p><!-- react-text: 6376 -->Manage DNS records, or turn deployed branches into subdomains<!-- /react-text --><!-- react-text: 6377 -->.<!-- /react-text --></p></header><div class="card card-settings"><div><div class="card-header"><h3 class="card-title disabled"><a id="dns-records" href="#dns-records" class="anchor">DNS records</a></h3></div><h4>DNS panel requires Netlify DNS management</h4><p>The Netlify DNS panel is available on sites which opt to use the Netlify DNS with their provided custom domain. Ensure you have a custom domain set and have chosen to use Netlify DNS.</p><div class="card-footer"><a href="#custom-domain" class="btn btn-basic">Custom domain panel ↑</a></div></div></div><div class="card card-settings"><div><div class="card-header"><h3 class="card-title disabled"><a id="branch-subdomains" href="#branch-subdomains" class="anchor">Branch subdomains</a></h3></div><h4>Branch subdomains require DNS management</h4><p>Branch subdomains are available on sites which opt to use the Netlify DNS with their provided custom domain. Ensure you have a custom domain set and have chosen to use Netlify DNS.</p><div class="card-footer"><a href="#custom-domain" class="btn btn-basic">Custom domain panel ↑</a></div></div></div></section><!-- react-empty: 6396 --></article></div>
-  
-  
-  
-  <h1 class="page-heading">my Posts</h1>
-  
-  
-  
-  
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Netlify App</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.netlify.com/img/global/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="https://www.netlify.com/img/global/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://www.netlify.com/img/global/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="https://www.netlify.com/img/global/favicon/safari-pinned-tab.svg" color="#0e1e25">
+  <link rel='stylesheet' href='https://cdn.netlify.com/css/a9b357c933ec72211a5ec1507ab80d221684d809/style/app.css'/>
+<script src="//d2wy8f7a9ursnm.cloudfront.net/bugsnag-2.min.js"
+        data-apikey="9b0542315c347c80d64e228583ec6dc2"></script><script type="text/javascript">
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+  analytics.load("bHbADSxnRvrpFMYP6pMNP38JC4J7Av75");
+  }}();
+</script></head>
+<body>
+  <div id='root' class="app"></div>
+  <script src='https://cdn.netlify.com/js/736325fc64e07b889f597d649b9a1efc60a63588/app.bundle.js'></script>
+</body>
+</html>
